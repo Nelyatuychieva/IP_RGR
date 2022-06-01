@@ -1,0 +1,45 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>РГЗ по интернет-программированию</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+        <style>
+        h2 {
+        color: rgb(120, 200, 41); 
+        }
+        </style>
+    </head>
+        <header>
+
+            <h1>PRIMETIME</h1>
+        </header>
+
+    <body onload="generateMenu()">
+
+       <nav class="main-menu">
+           <ul>
+           </ul>
+       </nav>
+ 
+       <main>
+           <section class="map">
+                <h2>пр. Карла Маркса, 39, Новосибирск, Новосибирская обл. <br> Телефон: 83833495999 <br> Работаем без выходных с 07:30 до 01:00</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18312.51530625735!2d82.87144482135774!3d54.98950462033677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe709bc7b23a5%3A0x8a2a9143ba105ac3!2sPRIMETIME!5e0!3m2!1sru!2sru!4v1654066639118!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <footer>
+           &copy; PRIMETIME
+
+        </footer>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+           <div class="message">
+              </div>
+              <button onclick="hideModal()"></button>
+        </div>
+
+
+    </body>
+    
+</html>
