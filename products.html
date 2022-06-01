@@ -1,0 +1,36 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>РГЗ по интернет-программированию</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+        <header>
+
+            <h1>PRIMETIME</h1>
+        </header>
+    <body onload="loaded()">
+
+       <nav class="main-menu">
+           <ul>
+           </ul>
+           <div class="searchbox">
+               <input type="search" placeholder = "Поиск по товарам" id="search">
+               <button onclick="search()">&#x1F50E;</button>
+           </div>
+       </nav>
+ 
+       <main></main>
+        <footer>
+           &copy; PRIMETIME
+        </footer>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+           <div class="message">
+              </div>
+              <button onclick="hideModal()"></button>
+        </div>
+    </body>
+    
+</html>
+
